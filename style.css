@@ -42,9 +42,15 @@ h1 span {
     color: #ffcc00;
 }
 
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
 .botao {
     display: inline-block;
-    margin-top: 20px;
     padding: 12px 24px;
     background: #ffcc00;
     color: #1f1c2c;
@@ -56,4 +62,13 @@ h1 span {
 
 .botao:hover {
     background: #ff9900;
+}
+
+.insta {
+    background: #E1306C; /* Cor do Instagram */
+    color: white;
+}
+
+.insta:hover {
+    background: #C13584;
 }
