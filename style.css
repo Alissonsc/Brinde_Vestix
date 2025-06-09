@@ -72,3 +72,10 @@ h1 span {
 .insta:hover {
     background: #C13584;
 }
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
