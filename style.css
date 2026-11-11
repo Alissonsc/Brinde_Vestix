@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Fundo escuro com a cara do site da Vestix (Preto/Grafite elegante) */
+    background: linear-gradient(145deg, #121212, #1a1a1a);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(25, 25, 25, 0.7);
+    border: 1px solid rgba(255, 204, 0, 0.2);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffcc00; /* Amarelo clássico da marca */
+    letter-spacing: 0.5px;
+}
+
+video {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.9;
+}
+
+.content {
+    margin-top: 15px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+h1 span {
+    color: #ffcc00;
+    font-weight: 600;
+}
+
+/* Box do Cupom Estilo Streetwear / Premium */
+.cupom-box {
+    background: #000000;
+    border: 2px dashed #ffcc00;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 20px 0;
+}
+
+.cupom-box p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.codigo-cupom {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+    letter-spacing: 3px;
+    padding: 4px 0;
+    display: inline-block;
+    margin: 4px 0;
+}
+
+.cupom-box small {
+    display: block;
+    font-size: 11px;
+    color: #888888;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Botão do Site (Seguindo a identidade principal amarela/preta do site) */
+.botao.site {
+    background: #ffcc00;
+    color: #121212;
+}
+.botao.site:hover {
+    background: #e6b800;
+    transform: translateY(-2px);
+}
+
+/* Botão WhatsApp */
+.botao.whats {
+    background: #25D366;
+    color: white;
+}
+.botao.whats:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+}
+
+/* Botão Instagram */
+.insta {
+    background: #E1306C;
+    color: white;
+}
+.insta:hover {
+    background: #c13584;
+    transform: translateY(-2px);
+}
